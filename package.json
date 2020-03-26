@@ -4,9 +4,7 @@
   "description": "typescript_blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "prestart": "tsc"
+    "start": "npx ts-node index.ts\" "
   },
   "repository": {
     "type": "git",
@@ -17,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/leeyunhome/typescript_blockchain/issues"
   },
-  "homepage": "https://github.com/leeyunhome/typescript_blockchain#readme"
+  "homepage": "https://github.com/leeyunhome/typescript_blockchain#readme",
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  }
 }
